@@ -1,27 +1,27 @@
-#KEK NOTE SPECIFICATION
+# KEK NOTE SPECIFICATION
 _Draft Version 0.0.1_
 
-##Project Description:
+## Project Description:
 
 __Project name:__ kek note
 __Project description:__ a command line note taking app
 __Main file:__ kek.py
 
 
-##Features
+## Features
 
 _Version 1.0.0_
 
 - Creating, listing, and deleting notebooks and entries.
 - Saves into a flat file
 
-##Flags
+## Flags
 
 `--version` - displays current version of the app
 
-##Commands
+## Commands
 
-###Notebooks
+### Notebooks
 
 __Current notebook__ - `kek notebook`
 
@@ -42,7 +42,7 @@ You can delete a notebook by using `remove <notebook name>`. e.g., `kek notebook
 NOTE: This will delete all notes in the specified notebook.
 
 
-###Notes
+### Notes
 
 __List all notes__ - `kek list`
 
