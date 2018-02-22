@@ -1,10 +1,9 @@
-# KEK NOTE SPECIFICATION
-_Draft Version 0.0.1_
-
 ## Project Description:
 
 __Project name:__ kek note
+
 __Project description:__ a command line note taking app
+
 __Main file:__ kek.py
 
 
