@@ -3,7 +3,7 @@
 
 import sys, os
 from datetime import datetime
-from notebook import Notebook
+import notebook
 
 version = "1.0.0"
 notebook_name = "default"
@@ -44,7 +44,6 @@ def delete_nb(notebook):
         os.remove('notebooks/' + notebook)
     except:
         print("An error occured.")
-
 
 load()
 
