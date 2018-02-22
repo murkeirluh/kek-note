@@ -17,7 +17,7 @@ class Notebook:
         self.notes[i] = note
         self.timestamps[i] = dt.strftime('%Y%m%d%H%M%S')
 
-    ''' Write the note to file '''
+        ''' Write the note to file '''
         with open(self.filename, 'a') as nb:
             nb.write(str(self.timestamps[i]))
             nb.write(" #" + str(i) + '\t')
@@ -31,7 +31,7 @@ class Notebook:
             del self.timestamps[note]
         # if param is note timestamp
         else:
-            i = list(self.notes.keys())[list(self.timestamp.values()).index(note)])
+            i = list(self.notes.keys())[list(self.timestamp.values()).index(note)]
             del self.notes[i]
             del self.timestamps[i]
     

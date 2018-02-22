@@ -8,10 +8,8 @@ from notebook import Notebook
 version = "1.0.0"
 notebook_name = "default"
 
-load()
-
 def current_version():
-    return version
+    return "kek note version " + version
 
 ''' Loads variables from settings file '''
 def load():
@@ -46,3 +44,11 @@ def delete_nb(notebook):
         os.remove('notebooks/' + notebook)
     except:
         print("An error occured.")
+
+
+load()
+
+if __name__ == '__main__':
+    args = sys.argv
+    if "--version" in args: 
+        print(current_version())
