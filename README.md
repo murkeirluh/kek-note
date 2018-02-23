@@ -1,11 +1,5 @@
-## Project Description:
-
-__Project name:__ kek note
-
-__Project description:__ a command line note taking app
-
-__Main file:__ kek.py
-
+# kek note
+a command line note taking app
 
 ## Features
 
@@ -13,6 +7,10 @@ _Version 1.0.0_
 
 - Creating, listing, and deleting notebooks and entries.
 - Saves into a flat file
+
+## Running kek
+
+`cd` into `dist` folder and run `kek <command>`.
 
 ## Flags
 
